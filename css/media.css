@@ -1,0 +1,244 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    /* common */
+          .kid1, .kid2, .courses{
+    padding-top: 55px;
+    padding-bottom: 55px;
+} 
+         .logo{
+         	width:150px;
+         }
+         .menu ul li a {
+       padding: 2px 20px !important;
+   }
+   .menu ul li a:hover {
+        background-color: transparent;
+        color: #f05c5c !important;
+    }
+   .d_user_ul {
+       top: 119%;
+       left: 0;
+      } 
+      .d_search_ul {
+       top: 119%;
+       left: 0;
+      }
+    .b_content h1{
+      font-size: 20px !important;
+      margin-top: 65px;
+      margin-bottom: 205px;
+    }  
+    .scroll p{ 
+    font-size: 12px;
+   }
+.scroll i{
+    font-size: 30px;
+    color: #bbbbbb; 
+   }
+
+ 
+
+ .c_h1{
+    font-size: 20px;
+}
+.c_border{
+    font-size: 15px;
+}
+ .kid1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+   .c_content{
+      margin-bottom: 20px;
+   }
+   .img-fluid-discover{
+   	width: 150px;
+   }
+
+     /* kid2 start */
+  .k2_single{
+    margin-bottom: 35px;
+  }
+  .k2_single2:last-child {
+    margin-bottom: 0;
+ }
+ /* courses start */
+ .c_content2{
+  margin-bottom: 35px;
+}
+.c_single{
+  margin-bottom: 20px;
+}
+
+ }
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	 /* common */
+          .kid1, .kid2, .courses{
+    padding-top: 50px;
+    padding-bottom: 50px;
+} 
+
+  .menu ul li a {
+       padding: 2px 20px !important;
+   }
+   .menu ul li a:hover {
+        background-color: transparent;
+        color: #f05c5c !important;
+    }
+   .d_user_ul {
+       top: 119%;
+       left: 0;
+      } 
+
+      .d_search_ul {
+       top: 119%;
+       left: 0;
+      }
+    .b_content h1{
+      font-size: 20px !important;
+      margin-top: 65px;
+      margin-bottom: 205px;
+    }   
+    .scroll p{ 
+    font-size: 12px;
+   }
+.scroll i{
+    font-size: 30px;
+    color: #bbbbbb; 
+   }
+
+  
+  .k1_img{
+  	margin-bottom: 30px;
+    text-align: center;
+   }
+
+   .c_content{
+      margin-bottom: 30px;
+   }
+   .img-fluid-discover{
+   	width: 200px;
+   }
+    /* kid2 start */
+  .k2_single{
+    margin-bottom: 40px;
+  }
+  .k2_single2:last-child {
+    margin-bottom: 0;
+ }
+
+ /* courses start */
+.c_content2{
+  margin-bottom: 40px;
+}
+.c_single{
+  margin-bottom: 25px;
+}
+
+
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+   .kid1, .kid2, .courses{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+
+   .menu ul li a {
+       padding: 2px 20px !important;
+   }
+   .menu ul li a:hover {
+        background-color: transparent;
+        color: #f05c5c !important;
+    }
+   .d_user_ul {
+       top: 119%;
+       left: 0;
+      } 
+   .d_search_ul {
+       top: 119%;
+       left: 0;
+      } 
+   .b_content h1{
+   	  font-size: 38px !important;
+      margin-top: 70px;
+      margin-bottom: 226px;
+    }
+    
+    .scroll p{ 
+    font-size: 14px;
+   }
+   .scroll i{
+    font-size: 30px;
+    color: #bbbbbb; 
+   }
+   .k1_img{
+  	margin-bottom: 30px;
+    text-align: center;
+   }
+   .img-fluid-discover{
+   	width: 200px;
+   }
+
+   .c_content{
+     margin-bottom: 30px;
+  }
+  /* kid2 start */
+  .k2_single{
+    margin-bottom: 50px;
+  }
+  .k2_single2:last-child {
+    margin-bottom: 0;
+ }
+
+ /* courses start */
+.c_content2{
+  margin-bottom: 50px;
+}
+.c_single{
+  margin-bottom: 30px;
+}
+
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .b_content h1{
+      margin-top: 49px;
+      margin-bottom: 275px;
+}
+ }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+   .b_content h1{
+      margin-top: 295px;
+      margin-bottom: 275px;
+    }
+ }
+
+/*Extra extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) and (max-width: 1599.98px){ 
+    .b_content h1{
+      margin-top: 300px;
+      margin-bottom: 285px
+    }
+
+ }
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1600px) and (max-width: 1799.98px) { 
+   .b_content h1{ 
+       margin-top: 445px;
+       margin-bottom: 245px;
+    }
+ }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1800px) and (max-width: 1920px) { 
+   .b_content h1{
+      margin-top: 570px;
+      margin-bottom: 225px;
+    }
+ }

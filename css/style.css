@@ -1,0 +1,289 @@
+/* 
+
+font-family: 'Lato', sans-serif; 
+font-family: 'Dosis', sans-serif; 
+font-family: 'Sniglet', cursive;
+
+*/
+/* common start */
+body{
+    background-image: url(../images/bg_img.jpg);
+    font-family: 'Dosis', sans-serif; 
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+}
+/* common end */
+
+/* header start */
+header{
+    margin top:0 auto;
+    background-color: #ffd338;
+}
+.nav_to{
+         color: rgb(241 92 92) !important;
+         border-color: rgb(241 92 92) !important;
+}
+.nav_to:focus{
+         color: rgb(241 92 92);
+         border-color: rgb(241 92 92);
+}
+
+.menu ul li a{
+    font-size: 18px;
+    font-weight: 700;
+    color: white !important;
+    padding: 2px 20px !important;
+    border-radius:15px;
+}
+.menu ul li a:hover{
+    background-color: #f05c5c;
+
+   }
+.d_user a{
+    color: white;
+} 
+.d_user_ul{
+    background-color: #ffd338;
+    top: 164%;
+    left: -110px;
+}
+
+.d_user_a:hover{
+    color: #f05c5c;
+   }
+.d_user_a:hover{   
+            box-shadow: 0 0 0 0.25rem rgb(241 92 92) !important;
+}
+.d_search_a{
+    color: white;
+} 
+.d_search_ul{
+   background-color: #ffd338;
+    top: 164%;
+    left: -250px;
+    min-width: 20rem;
+}
+.d_search_a:hover{
+    color: #f05c5c;
+   }
+.d_search_a:hover{   
+    box-shadow: 0 0 0 0.25rem rgb(241 92 92) !important;
+}
+
+/* header end */
+
+
+
+/* banner start */
+.banner{
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b_content{
+
+}
+.b_content h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #1ec0ff; 
+    margin-top: 310px;
+    margin-bottom: 340px;
+}
+.scroll{
+
+}
+.scroll p{
+    font-family: 'Lato', sans-serif; 
+    font-size: 18px;
+    font-weight: 400;
+    color: #bbbbbb;
+    text-transform: uppercase;
+    
+}
+.scroll i{
+    font-size: 40px;
+    color: #bbbbbb;
+    
+}
+/* banner end */
+
+
+
+/* kid1 start */
+.kid1, .kid2, .courses{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.c_content{
+  margin-bottom: 50px;
+}
+.c_h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.c_border{
+    font-family: 'Sniglet', cursive; 
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.k1_content{
+
+}
+.k1_content h2{
+    font-size: 24px;
+}
+.k1_content hr{
+    width: 170px;
+    color: #A0A0A0FF;
+    height: 3px;
+    height: 5px;
+}
+.k1_content p{
+    font-family: 'Lato', sans-serif; 
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;  
+}
+.a_discover{
+    margin-top: 20px;
+    display: block;
+}
+.discover{
+
+}
+.k1_img{
+  
+}
+.k1_img img{
+    border-radius: 20px;
+    width: 100%;
+}
+/* kid1 end */
+
+/* kid2 start */
+.kid2{
+    background-image: url(../images/kid2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+.c_content h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;  
+}
+
+.k2_single{}
+.k2_single img{
+    
+}
+.k2_single h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 15px;
+}
+.arrow{
+    margin: 5px auto;
+}
+/* kid2 end */
+
+
+
+/* courses start */
+.courses{
+
+}
+.c_content2{
+    margin-bottom: 0;
+}
+/* card */
+
+.card {
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+}
+.card-header{
+    background-color: #1ec0ff ;
+    color: white;
+}
+.card-header img{
+    padding-right: 0;
+}
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #1ec0ff;
+}
+
+.card-text {
+    font-family: 'Lato', sans-serif; 
+    font-size: 14px;
+    font-weight: 300;
+    color: #333333;
+    
+    
+}
+
+.card-footer {
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 100%;
+    color: #333333;
+    background: #ffff;
+}
+
+.profile {
+    position: absolute;
+    top: -25px;
+    right: 20px;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    
+}
+
+.profile-avatar {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* card */
+
+
+/*-- courses end--*/
